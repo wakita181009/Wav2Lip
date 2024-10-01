@@ -13,8 +13,7 @@ from tqdm import tqdm
 
 import audio
 from hparams import get_image_list, hparams
-from models import SyncNet_color as SyncNet
-from models import Wav2Lip as Wav2Lip
+from models import SyncNet, Wav2Lip
 
 parser = argparse.ArgumentParser(
     description="Code to train the Wav2Lip model without the visual quality discriminator"

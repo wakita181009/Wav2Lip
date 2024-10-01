@@ -3,7 +3,7 @@ import sys
 if sys.version_info[0] < 3 and sys.version_info[1] < 2:
     raise Exception("Must be using >= Python 3.2")
 
-from os import listdir, path
+from os import path
 
 if not path.isfile("face_detection/detection/sfd/s3fd.pth"):
     raise FileNotFoundError(

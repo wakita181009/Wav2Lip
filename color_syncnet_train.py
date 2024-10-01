@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 import audio
 from hparams import get_image_list, hparams
-from models import SyncNet_color as SyncNet
+from models import SyncNet
 
 parser = argparse.ArgumentParser(
     description="Code to train the expert lip-sync discriminator"

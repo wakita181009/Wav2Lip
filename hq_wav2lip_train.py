@@ -14,8 +14,7 @@ from tqdm import tqdm
 
 import audio
 from hparams import get_image_list, hparams
-from models import SyncNet_color as SyncNet
-from models import Wav2Lip, Wav2Lip_disc_qual
+from models import SyncNet, Wav2Lip, Wav2Lip_disc_qual
 
 parser = argparse.ArgumentParser(
     description="Code to train the Wav2Lip model WITH the visual quality discriminator"
